@@ -1,6 +1,6 @@
 /* Service worker: guarda la app en el móvil para que abra sin conexión.
    Al publicar una versión nueva, sube el número de VERSION. */
-const VERSION = "v1";
+const VERSION = "v2";
 const CACHE = "entreno-" + VERSION;
 const NUCLEO = [
   "./", "./index.html", "./manifest.json",
